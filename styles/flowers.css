@@ -1,0 +1,233 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.banner-container {
+    background: rgba(229, 84, 115, 0.10);
+    padding-top: 4rem;
+
+}
+.banner-title{
+    color: #272727;
+    font-size: 80px;
+    margin: 0;
+}
+.banner-descreiption{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin: 0;
+     padding-top: 32px;
+    padding-bottom: 32px; 
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-style: 20px;  
+    font-weight: 700;
+    padding: 20px 43px;
+}
+.banner-photo{
+    height: 800px;
+}
+/* bonus number styles */
+.bonus-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 170px;
+}
+.bouns-descreiption{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.image-container{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 60px;
+  
+}
+.photo{
+    width: 310px;
+    height: 428px;
+    display: inline-block;
+    object-fit: contain;
+}
+.background-size{
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;}
+
+.pink{
+    background: rgba(167, 33, 98, 0.15);
+}
+.blue{
+    background: rgba(5, 151, 160, 0.15);
+}
+.lime{
+    background: rgba(71, 125, 17, 0.15);
+}
+h4{
+    text-align: center;
+    text-decoration: underline;
+}
+/* Hot Deal ! Sale Up To 25% Off */
+.hot-deal-container{
+    width: 1922px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;   
+}
+.hot-deal{
+    display: flex; 
+    align-items: center;
+    gap: 60px;
+    max-width: 1440px;
+    margin: auto;
+    gap: 80px;  
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;  
+}
+.off{
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    
+   
+}
+.sign-up{
+    border-radius: 5px;
+    background: #E55473;
+    border: 0;
+    color: white;
+    font-style: 20px;  
+    font-weight: 700;
+    padding: 20px 43px;
+}
+.hot-deal-photo{
+    align-items: center;
+    width: 318px;
+    height: 420px;
+    margin: 100px;       
+}
+
+/* instragram styles */
+
+.instra-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 120px;
+    margin-bottom: 28px;
+}
+.instra-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+.intra-photo{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: end;   
+}
+.picture{
+    width: 342px;
+    height: 396px;  
+}
+.background-contant{
+    
+    background-image: url('Rectangle\ 9.png');
+    height: 449px;
+    width: 1440px;
+    margin-left: 200px;
+    margin-top: 125px;
+    
+   
+}
+.background-title{
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 100px;
+}
+.background-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.email{
+    width: 600px;
+    height: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+   border: none;
+  
+
+}
+/* footer flower shop styles */
+.flowershop{
+    background-color: black;
+    margin-top: 0px;
+}
+.flowershop-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 120px;
+}
+.flower{
+    color: #E55473;
+}
+.flowershop-description{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.coppy-right{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 120px;
+}
